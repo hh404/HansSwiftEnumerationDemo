@@ -14,6 +14,9 @@
 		3A2FACEE207DBDF1004371F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2FACEC207DBDF1004371F1 /* LaunchScreen.storyboard */; };
 		3A2FACF9207DBDF1004371F1 /* HansSwiftEnumerationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2FACF8207DBDF1004371F1 /* HansSwiftEnumerationDemoTests.swift */; };
 		3A2FAD04207DBDF1004371F1 /* HansSwiftEnumerationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2FAD03207DBDF1004371F1 /* HansSwiftEnumerationDemoUITests.swift */; };
+		3A2FAD12207DC2EC004371F1 /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2FAD11207DC2EC004371F1 /* ShareManager.swift */; };
+		3A2FAD14207DC362004371F1 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2FAD13207DC362004371F1 /* UserInfo.swift */; };
+		3A2FAD16207DC442004371F1 /* ProfleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2FAD15207DC442004371F1 /* ProfleInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3A2FACFF207DBDF1004371F1 /* HansSwiftEnumerationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HansSwiftEnumerationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2FAD03207DBDF1004371F1 /* HansSwiftEnumerationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HansSwiftEnumerationDemoUITests.swift; sourceTree = "<group>"; };
 		3A2FAD05207DBDF1004371F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2FAD11207DC2EC004371F1 /* ShareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
+		3A2FAD13207DC362004371F1 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		3A2FAD15207DC442004371F1 /* ProfleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfleInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				3A2FACEA207DBDF1004371F1 /* Assets.xcassets */,
 				3A2FACEC207DBDF1004371F1 /* LaunchScreen.storyboard */,
 				3A2FACEF207DBDF1004371F1 /* Info.plist */,
+				3A2FAD11207DC2EC004371F1 /* ShareManager.swift */,
+				3A2FAD13207DC362004371F1 /* UserInfo.swift */,
+				3A2FAD15207DC442004371F1 /* ProfleInfo.swift */,
 			);
 			path = HansSwiftEnumerationDemo;
 			sourceTree = "<group>";
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2FAD16207DC442004371F1 /* ProfleInfo.swift in Sources */,
+				3A2FAD14207DC362004371F1 /* UserInfo.swift in Sources */,
+				3A2FAD12207DC2EC004371F1 /* ShareManager.swift in Sources */,
 				3A2FACE6207DBDF0004371F1 /* ViewController.swift in Sources */,
 				3A2FACE4207DBDF0004371F1 /* AppDelegate.swift in Sources */,
 			);

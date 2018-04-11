@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let userInfo = UserInfo()
+        userInfo.name = "Hans"
+        var profileInfo = ProfleInfo()
+        profileInfo.name = "Hans"
+        ShareManager.shared.userInfo = userInfo
+        ShareManager.shared.profileInfo = profileInfo
         return true
     }
 
